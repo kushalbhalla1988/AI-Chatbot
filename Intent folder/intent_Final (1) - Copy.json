@@ -1,0 +1,493 @@
+ {"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","hey","Is anybody there?","I need help,is anybody there?","Hello?Help please.","?? Anybody?"],
+         "responses": ["Hi, I am Airyn-bot, your chat robot. May i know which claim do you want to file?","Hello there! Airyn-bot welcomes you. Which claim process do you want me to proceed with, fire or theft?","It looks like you want to file a claim, do not worry, when Airyn-bot is here.so, tell is it a case of fire or theft?","Hola!I am AIRYN-bot. Don't worry about claiming process,I'll guide you through. So, firstly, which claim is it: theft or fire?","Greetings of the day!I am Airyn-bot, your assistant.It would be great if you can tell which claim you want to file, fire or theft?","Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "purchase",
+         "patterns": ["What are the requirements to purchase a property insurance policy? "],
+         "responses": ["The proposal form should disclose all details, which are true to the insured’s best knowledge and other information, which the proposer may feel is relevant."],
+         "context": [""]
+        },    
+         {"tag": "FAQ3",
+         "patterns": ["How is condo insurance different from homeowner insurance?"],
+         "responses": ["When you purchase a condominium, you are not purchasing the building; you are purchasing a unit inside the building. You are also most likely a part of a condo corporation that fixes external structural damages."],
+         "context": [""]
+        },
+         {"tag": "FAQ4",
+         "patterns": ["If my garage burns down and my car is in the garage, is my car covered under my homeowners insurance or car insurance?"],
+         "responses": ["Your homeowners insurance does not cover the loss of your car, even though it was, “in your house.” You typically must have a form of comprehensive physical damage coverage on your automobile insurance policy for it to be covered."],
+         "context": [""]
+        },
+         {"tag": "FAQ5",
+         "patterns": ["I have taken home insurance policies with two companies. What happens in case of claim settlement?"],
+         "responses": ["In case you have taken home insurance policies from two different companies, you will be paid on a proportionate basis in the event of a claim being made."],
+         "context": [""]
+        },
+         {"tag": "FAQ6",
+         "patterns": ["If the insured house is sold, what happens to the home insurance policy?"],
+         "responses": ["In case the insured house is sold, the policy stands cancelled from the moment the transfer of ownership of the house takes place and the insured ceases to be covered under the policy. Following this, the balance of the premium for the remaining insured period shall be refunded to the policy holder."],
+         "context": [""]
+        },
+         {"tag": "FAQ7",
+         "patterns": ["What if some of my personal property is in the basement, is it covered ?"],
+         "responses": ["if your personal property is stored in the basement closet or cage of your condo or apartment, it’s covered because it’s still at your home address."],
+         "context": [""]
+        },
+         {"tag": "FAQ8",
+         "patterns": ["Is my Self-Storage Locker covered?"],
+         "responses": ["For personal property stored in a self-storage facility, or usually stored at a different place, our policy covers you for theft up to a certain limit."],
+         "context": [""]
+        },
+         {"tag": "FAQ9",
+         "patterns": ["How do I add extra coverage for my expensive items?"],
+         "responses": ["How do I add extra coverage for my expensive items?"],
+         "context": [""]
+        },
+         {"tag": "FAQ10",
+         "patterns": ["Is my roommate covered?"],
+         "responses": ["No. Renters and homeowners insurance only covers you and the property that you legally own. Your roommate will need to get their own insurance policy."],
+         "context": [""]
+        },
+         {"tag": "FAQ11",
+         "patterns": ["Is my laptop covered?"],
+         "responses": ["Coverage for laptops, phones, tablets, TVs, and other personal electronics are all included, as standard, in the policy."],
+         "context": [""]
+        },
+         {"tag": "FAQ12",
+         "patterns": ["Is my spouse covered?"],
+         "responses": ["You'll be happy to know that your policy automatically covers all residents of your household, who are related to you by marriage, blood, or adoption"],
+         "context": [""]
+        },
+         {"tag": "FAQ13",
+         "patterns": ["Why aren't floods and earthquakes covered by my homeowners policy?"],
+         "responses": ["( FOR US),Flood and earthquake activity is more widespread than many people realize. Nine out of ten Americans live in seismically active areas. Since 1900, earthquakes have occurred in 39 states and caused damage in all 50. And if your home is located in a flood-prone area, you are 26 times more likely to suffer flood damage than fire damage."],
+         "context": [""]
+        },
+         {"tag": "FAQ14",
+         "patterns": ["Are there any other exclusion I should know about?"],
+         "responses": ["There may be other exclusions spelled out in your policy such as neglect, intentional loss, 'earth movement (landslide)', general power failure and even damage caused by war. If you neglect to take care of your property (i.e., a leaky roof), you may not be covered. One other exclusion that can be costly is the Ordinance or Law exclusion."],
+         "context": [""]
+        },
+         {"tag": "FAQ15",
+         "patterns": ["What insurance will cover my Church ?"],
+         "responses": ["Every church needs two types of insurance: property and liability (casualty). Property insurance covers the things the church owns and should be calculated based on what it would cost to replace them (replacement cost value). Liability insurance covers actions that could leave the church liable for damage to others, including injuries, possessions, and reputations. "],
+         "context": [""]
+        },
+         {"tag": "FAQ16",
+         "patterns": ["If a contractor or one of his employees gets hurt while working on my property; can they sue me?"],
+         "responses": [" If they have workers compensation that would take care of them. If they do not have workers compensation; you could end up in a law suit (if you were liable for why they got hurt)."],
+         "context": [""]
+        },
+         {"tag": "FAQ17",
+         "patterns": ["If a neighbor’s tree falls on my car or house due to a storm, does my neighbor’s homeowners fix my car or house?"],
+         "responses": ["No, it does not. The tree falling over is due to an act of God, not your neighbor’s neglect or them trying to take the tree down themselves and it falling the wrong way."],
+         "context": [""]
+        },
+         {"tag": "FAQ18",
+         "patterns": ["What about our vacation home in another state, is it covered?"],
+         "responses": [" Because insurance companies can operate in more than one state, the company that carries your primary residence may issue a policy for your vacation home. Personal liability is covered in the first homeowners policy, so the second policy needs to cover only property. This second type of policy is called a 'dwelling policy.'"],
+         "context": [""]
+        },
+         {"tag": "FAQ19",
+         "patterns": ["I work out of my home. Are my inventory and business property covered?"],
+         "responses": ["Yes, within certain limits. Both inventory and business property are covered as personal property used for business purposes. However, like all personal property, there are monetary limits on reimbursement."],
+         "context": [""]
+        },
+         {"tag": "FAQ20",
+         "patterns": ["Help! I've lost everything! Where do I start?"],
+         "responses": ["Now is the time to make a list of major house, hold items and possessions. To make the job easier a home inventory form is available by clicking here. Where possible, it is wise to list the items' serial number, the date and the cost of purchase and the receipt. Perhaps an even easier way to inventory your home is to use a still or video camera. As you take the video, you also can talk about the items, when you purchased them and how much they cost."],
+         "context": [""]
+        },
+         {"tag": "FAQ21",
+         "patterns": ["Why does my insurance company want to know where the nearest fire hydrant to my home is located?"],
+         "responses": [" The insurance company has to weigh many factors in determining a premium to charge for your policy. One factor is access to water (hence the question about the location of the nearest fire hydrant) as well as the dependability and proximity of your local fire company and police. Rural homes more than five miles from a water supply are more at risk for severe damage from fire and lightning. Therefore, they can be more expensive to insure. Rural homeowners may even have difficulty obtaining insurance."],
+         "context": [""]
+        },
+         {"tag": "FAQ22",
+         "patterns": ["What if I am sued or found responsible for injuring another person?"],
+         "responses": [" Liability covers bodily injury and property damage to others due to your negligence. The coverage applies to non-auto accidents that occur either at your residence or off the premises. You may owe medical expense payments, such as first aid, to the injured party. Should you be sued as a result of your negligent actions or suspect that you might be sued"],
+         "context": [""]
+        },
+         {"tag": "FAQ23",
+         "patterns": ["I have termintes all over in my house, will my policy take care of it ?"],
+         "responses": ["No, destruction by termites or pests in not covered"],
+         "context": [""]
+        },
+         {"tag": "FAQ24",
+         "patterns": ["what are the things which will increase my liability risk?"],
+         "responses": ["an aggressive pet, trampoline or pool can result into more liability."],
+         "context": [""]
+        },
+         {"tag": "FAQ25",
+         "patterns": ["Are the backyard shed and my television covered in my homeowners policy?"],
+         "responses": ["Covered personal property includes the contents of your home and personal belongings used, owned, worn or carried by you or members of your household-basically, everything .This coverage is also based on the house coverage, and there are limits on the losses that can be claimed. "],
+         "context": [""]
+        },
+         {"tag": "FAQ26",
+         "patterns": ["Does my homeowners insurance cover my possessions even when I go on vacation?"],
+         "responses": ["Yes. Homeowners insurance is a package of insurance coverage that extends to all your possessions no matter where they are."],
+         "context": [""]
+        },
+         {"tag": "FAQ27",
+         "patterns": ["I rent out my basement. Are my tenants covered by my homeowners policy?"],
+         "responses": ["No. Your property and the structure (the basement) are covered by your policy, as is your personal liability. However, the tenants' possessions and liability are not covered by your policy. Therefore, they may wish to purchase their own renters insurance."],
+         "context": [""]
+        },
+         {"tag": "FAQ28",
+         "patterns": ["My mother-in-law lives with us. Are her possessions covered under my homeowners insurance?"],
+         "responses": ["As a member of the family, she is probably covered under your homeowners policy. Likewise, your child away at college is covered for personal liability and property loss."],
+         "context": [""]
+        },
+         {"tag": "FAQ29",
+         "patterns": ["I have specifically insured antique items on my policy. If I have a total loss, would my insurance company pay me their insured value?"],
+         "responses": ["Your insurance company would first confirm the value of the items with one or more independent antique dealers. You should then be paid a dollar value based on the dealer(s) estimate of the worth of the antique items. If you disagree with the settlement offered by your insurer, then you can follow the dispute resolution process outlined in your policy."],
+         "context": [""]
+        },
+         {"tag": "FAQ30",
+         "patterns": ["A tree from my neighbor's yard fell and destroyed my fence. Does my policy pay for the damage or does my neighbor's policy?"],
+         "responses": ["Generally, your own policy should cover the loss. Your insurance company may be able to recover the amount it pays you for the loss and your deductible from the homeowners insurance that your neighbor may have, in the event that the loss occurred as a result of your neighbor's negligence."],
+         "context": [""]
+        },
+         {"tag": "FAQ31",
+         "patterns": ["Recent rainstorms have flooded and damaged my basement. Is there any coverage under my policy?"],
+         "responses": ["Flood coverage is generally excluded on the basic homeowners policy. However, some homeowners policies provide coverage for backup of sewers and drains that cause flooding in your basement."],
+         "context": [""]
+        },
+         {"tag": "FAQ32",
+         "patterns": ["The food in my freezer went bad because I lost power in my home. Does my policy provide coverage for this?"],
+         "responses": ["The basic homeowner policy usually does not. There is also the issue of where the power was lost. Some policies are limited to coverage for electricity lost in the home or where the electricity enters the home. Others will limit it to within so many yards from the home. "],
+         "context": [""]
+        },
+         {"tag": "FAQ33",
+         "patterns": ["I have a dog of a particular breed and was told by some companies that they won't insure me because of my pet. Can they do this?"],
+         "responses": ["As a dog and homeowner there are ways that you can show your insurance agent or prospective insurer that you've taken steps to mitigate any liability risk your dog may pose.Show the agent or prospective insurer that your dog has undergone obedience training with a certified trainer Show veterinary records that verify your dog has had all required immunizations Show photographs as proof that your dog can be contained from contact with visitors to your property If your dog has bitten before always disclose the nature of the incident and the steps you took to prevent a repeat occurrence."],
+         "context": [""]
+        },
+         {"tag": "FAQ34",
+         "patterns": ["Does my policy provide coverage for home heating oil spills?"],
+         "responses": ["Most homeowners insurance policies do not automatically include such coverage as part of its standard homeowners insurance policy. Without the home heating oil spill cleanup coverage, you may be responsible for paying for an oil spill cleanup out of pocket"],
+         "context": [""]
+        },
+         {"tag": "FAQ35",
+         "patterns": ["Should I consider a recent appraisal for my jewelry items (such as an engagement or anniversary ring)?"],
+         "responses": ["Yes. The value of precious metals and gemstones is constantly changing. So even if you’ve had your jewelry appraised before, it’s always a good idea to have it appraised again for its current market value."],
+         "context": [""]
+        },
+         {"tag": "FAQ36",
+         "patterns": ["A pipe bursts and water flows all over my floors. Am I covered?"],
+         "responses": ["Yes. Typically, homeowners insurance covers you for accidental discharge of water from a plumbing system."],
+         "context": [""]
+        },
+         {"tag": "FAQ37",
+         "patterns": ["Am I covered for earthquake damage?"],
+         "responses": ["No. Earthquake coverage is available as a separate coverage."],
+         "context": [""]
+        },
+         {"tag": "FAQ38",
+         "patterns": ["Why is my home’s estimated reconstruction cost different than the new construction cost?"],
+         "responses": ["One is economies of scale and another is Labor costs are also typically higher for reconstruction compared to new construction. During reconstruction, workers may need to remove debris, demolish parts of the home, and align new materials with existing home materials. These processes are more labor intensive and as a result, more expensive. "],
+         "context": [""]
+        },
+         {"tag": "FAQ39",
+         "patterns": ["How does one fix the sum insured?"],
+         "responses": ["One condition is that the damaged asset should be repaired / replaced in order to get the claim. It may be noted that RIV method is allowed only for FIXED ASSETS and not for other assets like stocks and stocks in process."],
+         "context": [""]
+        },
+         {"tag": "FAQ40",
+         "patterns": ["My home sustained a water loss last winter due to melting ice dams on the roof. What would be covered under my policy?"],
+         "responses": ["Generally damage to both the exterior and interior of a home resulting from weight of ice and snow or ice dams is covered under a homeowners policy. However, only the area damaged in the loss will be covered."],
+         "context": [""]
+        },
+         {"tag": "FAQ41",
+         "patterns": ["My home was recently broken into and I do not have sales receipts for the stolen items. What will my insurance company accept for proof of ownership?"],
+         "responses": ["If the actual receipts are not available, insurance companies generally will accept photos, warranties, owners manuals, cancelled checks, credit card receipts, bills, servicing agreements, even video tapes, as proof of ownership."],
+         "context": [""]
+        },
+         {"tag": "FAQ42",
+         "patterns": ["What is not covered under buglary insurance?"],
+         "responses": ["The following items are Not covered by the burglary plan: Precious metals (gold, silver, etc.) Cash Share certificates Items that were stolen by family members Items that were stolen by employees Items that were stolen by housemaids Loss due to war, riots, strike, terrorist activities, and natural calamities"],
+         "context": [""]
+        },
+         {"tag": "FAQ43",
+         "patterns": ["When Should I Get Homeowners Insurance?"],
+         "responses": ["You should purchase homeowners insurance before you contact a mortgage company for a loan."],
+         "context": [""]
+        },
+         {"tag": "FAQ44",
+         "patterns": ["Under what circumstances will my claim not be accepted?"],
+         "responses": ["Under the Following Circumstances your Claim will not be Accepted- If the premises were left unattended If the premises were not locked properly locked Failure to ensure security at the premises Planned burglary to make an insurance claim"],
+         "context": [""]
+        },
+         {"tag": "FAQ45",
+         "patterns": ["How much would it cost to rebuild my home at today's prices?"],
+         "responses": ["The primary factors that’ll determine the cost to rebuild your home include: Local construction costs The square footage of your home (and the number of bathrooms and other rooms) The type of exterior wall construction – frame, masonry (brick or stone) or veneer The type of roof The number of floors (one to four stories, bi-level or split level) Special features like attached garages, fireplaces, exterior trim and arched windows Quality of materials and finishes throughout the home"],
+         "context": [""]
+        },
+         {"tag": "FAQ46",
+         "patterns": ["What are the different types of home insurance deductible options?"],
+         "responses": ["there are three common types of deductibles: A flat deductible is a specific or fixed dollar amount; A percent deductible is a percentage that it is based on the home’s dwelling coverage, A split deductible means there is a specific deductible that applies to some cause(s) of loss and a different deductible that applies to other causes of loss."],
+         "context": [""]
+        },
+         {"tag": "FAQ47",
+         "patterns": ["Does my liability coverage extend to vacant land I own or rent?"],
+         "responses": ["You may extend your personal liability coverage from your home and umbrella policies to vacant land you own or rent (depending on your state and product type)."],
+         "context": [""]
+        },
+         {"tag": "FAQ48",
+         "patterns": ["A neighbor slips on my sidewalk and threatens to take me to court for damages. Does my homeowner policy protect me?"],
+         "responses": ["Yes. Homeowners insurance will pay for damages, if the accident is the result of your negligence. It will also pay for the legal costs of defending you against a claim and will cover medical expenses arising from an injury to a neighbour or guest"],
+         "context": [""]
+        },
+         {"tag": "FAQ49",
+         "patterns": ["How long will it take for my insurance claim to be settled?"],
+         "responses": ["Most people find it takes at least 18-24 months to repair/rebuild/replace their home and possessions after a large loss"],
+         "context": [""]
+        },
+         {"tag": "FAQ50",
+         "patterns": ["What are the most common post-disaster insurance problems?"],
+         "responses": ["Not having enough coverage ('underinsured'),Delays,Confusion over what's covered and what's not,'Lowball' estimates and settlement offers. The adjuster assigned to the claim is unpleasant or hard to work with, or Differences of opinion over scopes and values of losses"],
+         "context": [""]
+        },
+         {"tag": "FAQ51",
+         "patterns": [" My adjuster is rushing me to complete my contents inventory, but I just can't remember everything yet."],
+         "responses": ["Don’t panic and use household inventory guide to recall.Don't forget to include taxes, transportation and shipping costs associated with replacing items. "],
+         "context": [""]
+        },
+         {"tag": "FAQ52",
+         "patterns": ["My home is partially damaged, will the insurance company owe for matching?"],
+         "responses": ["The appearance of your home after repairs have been made should be uniform and consistent. So, the insurance company will take care of this while repairing."],
+         "context": [""]
+        },
+         {"tag": "FAQ53",
+         "patterns": ["My insurance company keeps reducing what they're going to pay by 'depreciating' items in my claim; what can I do?"],
+         "responses": ["The condition of an item, its age and its useful life are all factors to consider. Not everything in home can be depreciated.For example, paint, vinyl and roofing are exposed to the elements so they deteriorate depreciated. The underlying materials like studs, cement, rebar, and framing—are not."],
+         "context": [""]
+        },
+         {"tag": "FAQ54",
+         "patterns": ["How Do I Know If the Damage Is Covered?"],
+         "responses": ["First, check your policy documents. If you’re still unsure, you can go ahead and begin the claims process anyway."],
+         "context": [""]
+        },
+         {"tag": "FAQ55",
+         "patterns": ["When Will an Adjuster Come to My Home?"],
+         "responses": ["This depends on a few factors, like the location of your home, and the extent of the damage. If a wildfire or hurricane causes wide-spread damage in your area, it may take a while for an adjuster to make it to your home."],
+         "context": [""]
+        },
+         {"tag": "FAQ56",
+         "patterns": ["Am I required to have homeowners insurance if I own a home?"],
+         "responses": ["You can legally own a home without homeowners insurance.However, if you finance your home with a mortgage, your lender most likely will require you to have home insurance coverage from damage caused by unforeseen circumstances, such as fires or natural disasters."],
+         "context": [""]
+        },
+         {"tag": "FAQ57",
+         "patterns": ["Will I need to show proof of ownership for property stolen from my home?"],
+         "responses": [" Yes, you may be asked to provide proof of ownership. Providing receipts, owners manuals, warranty cards, appraisals, photographs or original manufacturer's boxes can help support your claim."],
+         "context": [""]
+        },
+         {"tag": "FAQ58",
+         "patterns": ["what will be the cost of fire insurance policy?"],
+         "responses": ["The cost of a fire insurance policy or the Premium can depend on the Perils to be covered The value of the items covered  The usage of the premises proposed for insurance  The location details of the premises proposed for insurance etc. The construction of building and occupancy"],
+         "context": [""]
+        },
+         {"tag": "FAQ59",
+         "patterns": ["How does one arrive at the value of assets in Dwellings or Offices or Industries?"],
+         "responses": ["Other than dwellings, industrial units or offices will maintain books of accounts showing therein value of assets therefore it will not be any problem in arriving at the sum insured. In case of dwellings, one should take stock of assets under broad categories like furniture & fixtures, clothing, bed linen, kitchen equipment, electronic gadgets and arrive at the sum insured."],
+         "context": [""]
+        },
+         {"tag": "FAQ60",
+         "patterns": ["Why should I insure my Building? Fire can't possibly do any harm to the building."],
+         "responses": ["Fire and other perils (normally covered under a fire insurance policy) can cause loss / damage to buildings. There have been fire accidents that have completely destroyed multi-storey buildings. Floods can also bring about devastating losses. Similarly, Riots and Acts of Terrorism can also produce huge losses to human lives as well as property."],
+         "context": [""]
+        },
+         {"tag": "FAQ61",
+         "patterns": ["I need to cover my jewellery. What policy should I take?"],
+         "responses": ["Insurers offer ‘All Risks’ policy for covering jewellery. You must ensure that your jewellery is valued correctly and you are able to show proof of valuation should a claim occur."],
+         "context": [""]
+        },
+         {"tag": "FAQ62",
+         "patterns": ["In a partial theft case, is FIR required?"],
+         "responses": ["Yes, police intimation or FIR is mandatory."],         
+         "context": [""]
+        },
+         {"tag": "FAQ63",
+         "patterns": ["what do I need for a claim?"],
+         "responses": ["We will need government-issued Aadhaar cards, original receipts, original prescriptions. For loss or theft-related claims, we will need original receipts and police reports."],
+         "context": [""]
+        },
+         {"tag": "FAQ64",
+         "patterns": ["how soon can I expect to receive the money?"],
+         "responses": ["Most people find it takes at least 18-24 months to repair/rebuild/replace their home and possessions after a large loss. Simple claims, for example OPD or small amounts, will be approved within two hours and money settled in 24 hours. Complex claims like theft or accidents will take longer."],
+         "context": [""]
+        },
+         {"tag": "FAQ65",
+         "patterns": ["how will I get paid for the claim ?"],
+         "responses": ["Do not worry, it will be transferred to your bank account."],      
+         "context": [""]
+        },
+		{"tag": "FAQT2",
+         "patterns": ["It is theft.","Robery took place.","Thievery happened."],
+         "responses": ["Okay,let's make your claim reporting faster.","Don't worry,i will guide you to file your claim quickly. But tell me your policy number first!","Let's see, Yes, I can fix this, but only when you can tell your Policy Number.","Well, i can help you with this, just tell me your policy number.","Let me help you with this, can you share policy number?"],
+         "context": [""]
+        },
+         {"tag": "FAQT3",
+         "patterns": ["Yeah sure, it is 112023.","Please note, it was 102232","Yeah, why not, it was on 232434","221133"],
+         "responses": ["Yeah, okay. may I know your name? ","Okay :). Can you tell your name?","May I have your name?","Very well. Can you please enter your full name?","okay. How may i address you?","Do you mind if I ask your full name ?","Okay, Your name?"],
+         "context": [""]
+        },
+         {"tag": "FAQT03",
+         "patterns": ["I am Mary Wilson.","I am Alfred Smith.","my name is David Wood.","Anne Taylor.","I'm James Hall.","Myself Peter Johnson."],
+         "responses": ["Hello! May I know how are you related to the insured person?","Ok, How are you realated to the policy holder?","Are you the insured person or any relative of him/her. If yes, please tell the relation.","Are you policy holder's relative? Is yeah, then tell the relation.","Okay, And you are his/her..?","Okay, And you are insured person's ....?"],
+         "context": [""]
+        },
+         {"tag": "FAQT003",
+         "patterns": ["I am his wife, Sarah.","I am her daughter, Lily.","He is my uncle.","He's my father, I am Leo.","Susan, her sister.","She's my mommy."],
+         "responses": ["Very well. May I get your contact details?","Can I get the contact details?","May i have your phone number?","Please Enter your Contact number.","Can you provide me your phone number?","May I get phone number to contact you?"],
+         "context": [""]
+        },
+           {"tag": "FAQT0003",
+         "patterns": ["Yeah, it XXXXXXXXX.","It is XXXXXXXXX","You can reach me on XXXXXXXX","XXXXXXXXX"],
+         "responses": ["Please tell Date and time of the incident.","May I know the date and time of this event?","Well, we have got you covered for this, just tell us time and date when it all happened?","Don't worry, we are here to take care of this, lets's get started, date and time of this incident?"],
+        "context": [""]
+         },
+         {"tag": "FAQT4",
+         "patterns":["Sure, XX--XX-XXXX.","yeah, it was on XX-XX-XXXX","XX-XX-XXXX"],
+         "responses":["We understand, can you tell what all things are lost?","I would really appreciate if you can recall the list of all the things that are lost?","In these scenarios, it a great start if you can provide the inventory loss list?","I can report claim faster if you can provide me the list of inventory loss?"],
+         "context": [""]
+        },
+         {"tag": "FAQT5",
+         "patterns":  ["Yeah,appliances and jewellary","all electornic appliances nmamely tv, microwave and laptop.","My antique jewellary and and precious stones.","Yeah, I have lost everything in my house, i have my inventory lisy ready.","I have lost my laptop and Tv.","Stock of appliances"],
+         "responses": ["Can you please tell model no. and brand?","Aw, I understand how important they are. to claim for them quickly, can you recall the model no. and brand?","Okay, so we need some details about the lost items: model no. and brand?","Can you provide the model no. with respective brand of the lost item ?"],
+         "context": [""]
+        },
+         {"tag": "FAQT6",
+         "patterns": ["Yeah it was Model 322RE43 which was of Gm company","model XXXX123 of LG brand.","Laptop Lenovo C340","Intel desktop 3E"], 
+         "responses": ["Please attach the reciept.","Can you attach the receipt of that lost item, it will be easier for us to read the details.:)","Keeping the receipts handy is always a good option, can you please attach the receipt of the stoeln item?","Uploading the reciept would help for faster and fair claim reimbursements."],
+         "context": [""]
+        },
+         {"tag": "FAQT7",
+         "patterns":["Yeah sure(uploading).","Yes uploading.","I think i have lost the receipt. I will try searching for it.","Okay!","yeah sure."],
+         "responses":["It would be of great help to me to process it faster if you can tell me date of purchase and price.","Can you please inform date of purchase and price of the event to me?","It's better to confirm the info first,can you provide the actual price and the purchase date of the item?","Can you notify the purchase date and price of the item."],
+         "context": [""]
+        },
+           {"tag": "FAQT8",
+         "patterns":["I bought it on XX-XX-XXXX, and it costed me $XXXXX.","YA, it was of $XXX on XX-XX-XXXX.","Purchase date: XX-XX-XXXX & MRP: $XXXX","I got it on XX-XX-XXXX and $XXXX"],
+         "responses":["have you filed FIR? If yes, attach the report.","I hope you've filed a FIR, if yes, please attach it.","FIR filed? If yes, then attach the report.","Please notify me about the lodged FIR. "],
+         "context": [""]
+        },
+         {"tag": "FAQT9",
+         "patterns":["Yeah, i have. (uploading).","Ok, done.","Okay, i am attaching.","No i have not filed FIR."],
+         "responses":["Thanks for your support, Adjustor will be reaching out to you soon. what would be the preffered way?","Adjustor will be coming down to your way. Through which way would you like us to go on to contac you?","Intimated the adjustor successfully, but he need to reach out to you, through which way should he go?","Done, Adjuster will come to evaluate and navigate through claims, how can we reach to you?"],
+         "context": [""]
+        },
+         {"tag": "FAQT10",
+         "patterns":["Great, Calls between 10Am and 6Pm will be fine.","it's fine, Anywhich way is cool. ","Okay, text messages will be fine.","Okay, Emails will be good."],
+        "responses": ["Perfect. Have a nice day! It was nice chatting with you","DONE-DONE,it was fun talking to you, I hope this chat helped.Bye!","That'd be great, it was great texting you. Take care of your inventory!:)","That sounds great, Have a great day ahead!"],
+         "context": [""]
+        },
+        {"tag": "FAQF2",
+         "patterns": ["hey, its fire.","Fire/House burnt","Fire broke out in my house.","Fire!","It is the case of Ifre in my house.","Help me! it is Fire:/"],
+         "responses": ["Okay,let's make your claim reporting faster.","Don't worry,i will guide you to file your claim quickly. But tell me your policy number first!","Let's see, Yes, I can fix this, but only when you can tell your Policy Number.","Well, i can help you with this, just tell me your policy number.","Let me help you with this, can you share policy number?"],
+         "context": [""]
+        },
+         {"tag": "FAQF3",
+         "patterns": ["Okay, it's 221223.","Yeah note it is 221223.","221112.","Yes, it is 221112."], 
+         "responses": ["Yeah, okay. may I know your name? ","Okay :). Can you tell your name?","May I have your name?","Very well. Can you please enter your full name?","okay. How may i address you?","Do you mind if I ask your full name ?","Okay, Your name?"],
+         "context": [""]
+        },
+         {"tag": "FAQF01",
+         "patterns": ["I am Mary Wilson.","I am Alfred Smith.","my name is David Wood.","Anne Taylor.","I'm James Hall.","Myself Peter Johnson."],
+         "responses": ["Hello! May I know how are you related to the insured person?","Ok, How are you realated to the policy holder?","Are you the insured person or any relative of him/her. If yes, please tell the relation.","Are you policy holder's relative? Is yeah, then tell the relation.","Okay, And you are his/her..?","Okay, And you are insured person's ....?"],
+         "context": [""]
+        },
+         {"tag": "FAQF02",
+         "patterns": ["I am his wife, Sarah.","I am her daughter, Lily.","He is my uncle.","He's my father, I am Leo.","Susan, her sister.","She's my mommy."],
+         "responses": ["Very well. May I get your contact details?","Can I get the contact details?","May i have your phone number?","Please Enter your Contact number.","Can you provide me your phone number?","May I get phone number to contact you?"],
+         "context": [""]
+        },
+           {"tag": "FAQF03",
+         "patterns": ["Yeah, it XXXXXXXXX.","It is XXXXXXXXX","You can reach me on XXXXXXXX","XXXXXXXXX"],
+         "responses": ["Okay, I would like to know your address?","I want you to enter the address details.","Can you please enter your address details.","Ca you please enter your address so that We can reach you.", "Can you enter zip code of your address?"],
+         "context": [""]
+        },
+         {"tag": "FAQF04",
+         "patterns": ["777 Brockton Avenue, Bellingham 2019.","121 Russell St. Hadley,MA 2133","It's 1775 Washington St. Hanover MA 334","123 Otis street, Nothborugh MA 3344","It's 780, Lynnway, Lynn MA556.","US Rt 11, Evas MIlls, NY"],
+         "responses": ["Date and time of the incident please?","My i know the date and time when this fire broke out?","Will you make me aware of date and time when thill all started?","Noted,but let me know the date and timing of this occurrence?"],
+         "context": [""]
+        },
+         {"tag": "FAQF4",
+         "patterns": ["yeah, it was 2 Am on 30th May, 2020.","22-05-2020 around 2am.","Date; 30-05-20 time:2 am","The time was around 2 am on 30th May, 2020."],
+         "responses": ["Can you upload the Images of the incident?","Okay,I hope nobody is injured. I want you to upload the images of the fire in the house to understand this situation better. ","I hope everbody is sound and safe. Can you help me out by uploading the photographs of the incident?","I need some images of the incident, can you assist by uploading some?"],
+         "context": [""]
+        },
+         {"tag": "FAQF5",
+         "patterns": ["Thanks, yeah i will.","Yeah, uploading, thanks.","yes, uploading...","That's so sweet of you Airyn. yes uploading.","Yeah, everything is fine, thanks.Attaching!!","Thanks,Uploading!"],
+         "responses": ["What all things were damaged, room and/or material?","Room damaged or Material damaged, Share every detail with me honestly.","Trust me with all your details, what all things were damaged?","Can you tell me what all things were damaged, room or meterial?"],
+         "context": [""]
+        },
+         {"tag": "FAQF6",
+         "patterns": ["yes, 1 room and my appliances.","Yeah, 2 rooms, living room and kitchen and electric appliances.","Flooring, appliances and Tv sets.","No room specifically got damaged, just my window panes and curtains and sofa sets.","Gas stove is the reason and kitchen is totally damaged.","materials damaged like floor and furniture."],
+         "responses": ["Just a quick check, is the address same as written in policy?","Well, I would want you to enter the address of your home which caught fire for confirmation?","Just a quick confirmation, you have one house insured under HO property, is it the same as the damaged one?","Can you please tell your address?"],
+         "context": [""]
+        },
+         {"tag": "FAQF7",
+         "patterns":["Yeah, It's same.","yeah, no changes.","No, it has been changed to 221b Baker Street.","No changes.","Yes same to same.","No, it has been changed to 221C Centerville."],
+         "responses": ["okay, Have you contacted Fire brigade? A report would work.","Noted!Your claim reporting is halfway,but have you reached out to fire brigade? Can you attach the report of the same! ","Please attach the fire brigade report, if you have contacted one!"],
+         "context": [""]
+        },
+          {"tag": "FAQF8",
+          "patterns": ["Okay, attaching.","yes, uploading...","Cool, attached.","no, i have not called fire brigade.","No report, I've managed it myself.","No report, managed myself."],
+           "responses":["Do you have any idea what was the reason for fire?","Do you know the source of fire? ","Did you figure out what was the reason for the fire in your house?"," Were you successful in identifying the cause of loss?"],
+           "context": [""]         
+         }, 
+         {"tag": "FAQF08",
+          "patterns":["electrical equiments.","It was barbeque and curious children :/.","Yes, Faulty wiring.","Flammable liquids and candles.","No idea, couldn't really understood the source.","No idea, I wasn't at home.","Cooking equiments: got overheated"],
+          "responses": ["Need to repair anything? i can arrange one,for you.","Is there a need to repair the stuff? I csn arrange one.","Do you need any repairperson? I have one on my mind, I can get you his contact.?","Do you wish to repairt the damaged items, i can arrange one."],
+          "context": [""]
+        },
+         {"tag": "FAQF9",
+         "patterns": ["Oh, that'd be great. Please do.","Yeah, thanks.","Yes, i do need him urgently. Please contact him.","Oh,very well, thank you!","Sure, please go ahead.","Yes, why not.","Yeah arrange one. I need him badly."],
+         "responses": ["Do you want me to book an appointment with nearest repair shop, that too with negotiable prices?","okay, what would you say if i say,I can fix appointment with nearest repair shop, how is that?","You must be needing the repair person soon, do you want to fix appointment with him, with the cheapest prices?","Do you want to repair anything, I have one good contact person there, he will help you, if you wish to!(That too with negotiable prices)Do you want to continue with the plan?"],
+         "context": [""]
+        },
+         {"tag": "FAQF10",
+         "patterns": ["Yeah sure.","Yeah i want to.","Yeah thank you Airyn.","Yes process further.","Green Signal!","perfect! Go ahead."],
+         "responses": ["Sure, what will be suitable time for appointment?","At what time would you like me to fix the appointment?","positively, but at what time?","It will be better if you can tell me precise timing for booking an appointment?"],
+         "context": [""]
+        },
+           {"tag": "FAQF11",
+         "patterns": ["On Monday around 2 Am.","Yes, please fix appointment for Monday timings anytime before 5 pm.","Moday: 2-5 Pm.","Yeah, book an appointment for Monday, time:12 noon -5 Pm."],
+         "responses": ["Done! please note that your appointment no. is 112.","Please take a note of your appointment number is 656","Perfect! Your generated appointment number is 6856.","Nice, your appointment number is 7798."],
+         "context": [""]
+        },
+         {"tag": "FAQF12",
+         "patterns": ["Thanks, noted.","Thanks for informing.","Noted.","Thanks for communicating.","Done, added.","Yes, written thanks"],
+         "responses": ["Also, we would like to inspect the damaged area, could you please tell suitable time for that?","Damaged area needs to be inspected, what will be the suitable timings for that?","For the next step, adjuster will come to your house to inspect, which time would you like me to let him visit?","For adjuster's visit, please tell your preferred timings?"],
+         "context": [""]
+        },
+         {"tag": "FAQF13",
+         "patterns": ["!0am to 5Pm.","Yeah, 4-6 pm would be fine.","Anytime before 7PM","I have night shift, come early morning around 7 am.","Morning 8-10am","Evening after5 Pm."],
+         "responses": ["This looks great,your FNOL has been reported successfully, and number is XXXXX","Okay,thanks for informing. Your FNOL claim number is XXXXXX","Yes, it's perfect, you can now get your FNOL claim number,it is XXXXX.","High-Five!Your Claim number has been generated, it is XXXXX."],
+         "context": [""]
+        },
+          {"tag": "FAQF14",
+         "patterns": ["Great, thanks.","You helped me a lot Aiyrn, thanks.","Okay, noted, thank you so much Airyn-bot!","That was so fast, thanks!","It was a great experiece! Thanks bot!"],
+         "responses": ["I guess I was helpful enough to guide you through, smoothly.","It was fun chatting with you, take care:)","See you soon,Take care, bu-bye:)","It was great interacting with you.Good wishes!","Thank you for reaching out to this friend. Just remember, anytime;)","Anytime,Anywhere.;)"],
+         "context": [""]
+        }
+	]	
+}

@@ -1,0 +1,133 @@
+{"intents": [
+         {"tag": "FAQ1-theft",
+         "patterns": ["hey","Is anybody there?","I need help,is anybody there?","Hello?Help please.","?? Anybody?"],
+         "responses": ["Hi, I am Airyn-bot, your chat robot. May i know which claim do you want to file?","Hello there! Airyn-bot welcomes you. Which claim process do you want me to proceed with, fire or theft?","It looks like you want to file a claim, do not worry, when Airyn-bot is here.so, tell is it a case of fire or theft?","Hola!I am AIRYN-bot. Don't worry about claiming process,I'll guide you through. So, firstly, which claim is it: theft or fire?","Greetings of the day!I am Airyn-bot, your assistant.It would be great if you can tell which claim you want to file, fire or theft?"],
+         "context": [""]
+        },
+         {"tag": "FAQ2-theft",
+         "patterns": ["It is theft.","Robery took place.","Thievery happened."],
+         "responses": ["Okay,let's make your claim reporting faster.","Don't worry,i will guide you to file your claim quickly. But tell me your policy number first!","Let's see, Yes, I can fix this, but only when you can tell your Policy Number.","Well, i can help you with this, just tell me your policy number.","Let me help you with this, can you share policy number?"],
+         "context": [""]
+        },
+         {"tag": "FAQT3-theft",
+         "patterns": ["Yeah sure, it is 112023.","Please note, it was 102232","Yeah, why not, it was on 232434","221133"],
+         "responses": ["Please tell Date and time of the incident.","May I know the date and time of this event?","Well, we have got you covered for this, just tell us time and date when it all happened?","Don't worry, we are here to take care of this, lets's get started, date and time of this incident?"],
+        "context": [""]
+         },
+         {"tag": "FAQT4-theft",
+         "patterns":["Sure, 24-02-2020.","yeah, it was on XX-XX-XXXX","XX-XX-XXXX"],
+         "responses":["We understand, can you tell what all things are lost?","I would really appreciate if you can recall the list of all the things that are lost?","In these scenarios, it a great start if you can provide the inventory loss list?","I can report claim faster if you can provide me the list of inventory loss?"],
+         "context": [""]
+        },
+         {"tag": "FAQT5-theft",
+         "patterns":  ["Yeah,appliances and jewellary","all electronic appliances namely tv, microwave and laptop.","My antique jewellary and and precious stones.","Yeah, I have lost everything in my house, i have my inventory lisy ready.","I have lost my laptop and Tv.","Stock of appliances"],
+         "responses": ["Can you please tell model no. and brand?","I understand how important they are. to claim for them quickly, can you recall the model no. and brand?","Okay, so we need some details about the lost items: model no. and brand?","Can you provide the model no. with respective brand of the lost item ?"],
+         "context": [""]
+        },
+         {"tag": "FAQT6-theft",
+         "patterns": ["Yeah it was Model 322RE43 which was of Gm company","model XXXX123 of LG brand.","Laptop Lenovo C340","Intel desktop 3E"], 
+         "responses": ["Please attach the receipt.","Can you attach the receipt of that lost item, it will be easier for us to read the details.:)","Keeping the receipts handy is always a good option, can you please attach the receipt of the stoeln item?","Uploading the reciept would help for faster and fair claim reimbursements."],
+         "context": [""]
+        },
+         {"tag": "FAQT7-theft",
+         "patterns":["Yeah sure(uploading).","Yes uploading.","I think i have lost the receipt. I will try searching for it.","Okay!","yeah sure."],
+         "responses":["It would be of great help to me to process it faster if you can tell me date of purchase and price.","Can you please inform date of purchase and price of the event to me?","It's better to confirm the info first,can you provide the actual price and the purchase date of the item?","Can you notify the purchase date and price of the item."],
+         "context": [""]
+        },
+         {"tag": "FAQT8-theft",
+         "patterns":["I bought it on XX-XX-XXXX, and it costed me $XXXXX.","YA, it was of $XXX on XX-XX-XXXX.","Purchase date: XX-XX-XXXX & MRP: $XXXX","I got it on XX-XX-XXXX and $XXXX"],
+         "responses":["have you filed FIR? If yes, attach the report.","I hope you've filed a FIR, if yes, please attach it.","FIR filed? If yes, then attach the report.","Please notify me about the lodged FIR. "],
+         "context": [""]
+        },
+         {"tag": "FAQT9-theft",
+         "patterns":["Yeah, i have. (uploading).","Ok, done.","Cool, attached.","Okay, i am attaching.","No i have not filed FIR."],
+         "responses":["Thanks for your support, Adjustor will be reaching out to you soon. what would be the preffered way?","Adjustor will be coming down to your way. Through which way would you like us to go on to contac you?","Intimated the adjustor successfully, but he need to reach out to you, through which way should he go?","Done, Adjuster will come to evaluate and navigate through claims, how can we reach to you?"],
+         "context": [""]
+        },
+         {"tag": "FAQT10-theft",
+         "patterns":["Great, Calls between 10Am and 6Pm will be fine.","it's fine, Anywhich way is cool. ","Okay, text messages will be fine.","Okay, Emails will be good."],
+        "responses": ["Perfect. Have a nice day! It was nice chatting with you","DONE-DONE,it was fun talking to you, I hope this chat helped.Bye!","That'd be great, it was great texting you. Take care of your inventory!:)","That sounds great, Have a great day ahead!"],
+         "context": [""]
+        },
+        {"tag": "FAQT11-theft",
+          "patterns":["can i have my claim number?"],
+         "responses": ["Your claim number is 1234567891 for your further referene!"],
+          "context": [""]
+         },
+		    {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+         {"tag": "FAQ1-fire",
+         "patterns": ["hey","Is anybody there?","I need help,is anybody there?","Hello?Help please."],
+         "responses": ["Hi, I am Airyn-bot, your chat robot. May i know which claim do you want to file?","Hello there! Airyn-bot welcomes you. Which claim process do you want me to proceed with, fire or theft?","It looks like you want to file a claim, do not worry, when Airyn-bot is here.so, tell is it a case of fire or theft?","Hola!I am AIRYN-bot. Don't worry about claiming process,I'll guide you through. So, firstly, which claim is it: theft or fire?","Greetings of the day!I am Airyn-bot, your assistant.It would be great if you can tell which claim you want to file, fire or theft?"],
+         "context": [""]
+        },
+           {"tag": "FAQF2-fire",
+         "patterns": ["hey, its fire.","Fire/House burnt","Fire broke out in my house.","Fire!","It is the case of Ifre in my house.","Help me! it is Fire:/"],
+         "responses": ["Okay,let's make your claim reporting faster.","Don't worry,i will guide you to file your claim quickly. But tell me your policy number first!","Let's see, Yes, I can fix this, but only when you can tell your Policy Number.","Well, i can help you with this, just tell me your policy number.","Let me help you with this, can you share policy number?"],
+         "context": [""]
+        },
+         {"tag": "FAQF3-fire",
+         "patterns": ["Okay, it's 221223.","Yeah note it is 221223.","221112.","Yes, it is 221112."], 
+         "responses": ["Date and time of the incident please?","My i know the date and time when this fire broke out?","Will you make me aware of date and time when thill all started?","Noted,but let me know the date and timing of this occurrence?"],
+         "context": [""]
+        },
+         {"tag": "FAQF4-fire",
+         "patterns": ["yeah, it was 2 Am on 30th May, 2020.","#-05-2020 around 2am.","Date; 30-05-20 time:2 am","The time was around 2 am on 30th May, 2020."],
+         "responses": ["Can you upload the Images of the incident?","Okay,I hope nobody is injured. I want you to upload the images of the fire in the house to understand this situation better. ","I hope everybody is sound and safe. Can you help me out by uploading the photographs of the incident?","I need some images of the incident, can you assist by uploading some?"],
+         "context": [""]
+        },
+         {"tag": "FAQF5-fire",
+         "patterns": ["Thanks, yeah i will.","Yeah, uploading, thanks.","yes, uploading...","That's so sweet of you Airyn. yes uploading.","Yeah, everything is fine, thanks.Attaching!!","Thanks,Uploading!"],
+         "responses": ["What all things were damaged, room and/or material?","Room damaged or Material damaged, Share every detail with me honestly.","Trust me with all your details, what all things were damaged?","Can you tell me what all things were damaged, room or meterial?"],
+         "context": [""]
+        },
+         {"tag": "FAQF6-fire",
+         "patterns": ["yes, 1 room and my appliances.","Yeah, 2 rooms, living room and kitchen and electric appliances.","Flooring, appliances and Tv sets.","No room specifically got damaged, just my window panes and curtains and sofa sets.","Gas stove is the reason and kitchen is totally damaged.","materials damaged like floor and furniture."],
+         "responses": ["Just a quick check, is the address same as written in policy?","Well, I would want you to enyrt the address of your home which caught fire for confirmation?","Just a quick confirmation, you have one house insured under HO property, is it the same as the damaged one?","Can you please tell your address?"],
+         "context": [""]
+        },
+         {"tag": "FAQF7-fire",
+         "patterns":["Yeah, It's same.","yeah, no changes.","No, it has been changed to 221b Baker Street.","No changes.","Yes same to same.","No, it has been changed to 221C Centerville."],
+         "responses": ["okay, Have you contacted Fire brigade? A report would work.","Noted!Your claim reporting is halfway,but have you reached out to fire brigade? Can you attach the report of the same! ","Please attach the fire brigade report, if you have contacted one!"],
+         "context": [""]
+        },
+         {"tag": "FAQF8-fire",
+          "patterns": ["Okay, attaching.","yes, uploading...","no, i have not called fire brigade.","No report, I've managed it myself.","No report, managed myself."],
+          "responses": ["Need to repair anything? i can arrange one,for you.","Is there a need to repair the stuff? I csn arrange one.","Do you need any repairperson? I have one on my mind, I can get you his contact.?","Do you wish to repairt the damaged items, i can arrange one."],
+          "context": [""]
+        },
+         {"tag": "FAQF9-fire",
+         "patterns": ["Oh, that'd be great. Please do.","Yeah, thanks.","Yes, i do need him urgently. Please contact him.","Oh,very well, thank you!","Sure, please go ahead.","Yes, why not.","Yeah arrange one. I need him badly."],
+         "responses": ["Do you want me to book an appointment with nearest repair shop, that too with negotiable prices?","okay, what would you say if i say,I can fix appointment with nearest repair shop, how is that?","You must be needing the repair person soon, do you want to fix appointment with him, with the cheapest prices?","Do you want to repair anything, I have one good contact person there, he will help you, if you wish to!(That too with negotiable prices)Do you want to continue with the plan?"],
+         "context": [""]
+        },
+         {"tag": "FAQF10-fire",
+         "patterns": ["Yeah sure.","Yeah i want to.","Yeah thank you Airyn.","Yes process further.","Green Signal!","perfect! Go ahead."],
+         "responses": ["Sure, what will be suitable time for appointment?","At what time would you like me to fix the appointment?","positively, but at what time?","It will be better if you can tell me precise timing for booking an appointment?"],
+         "context": [""]
+        },
+           {"tag": "FAQF11-fire",
+         "patterns": ["On Monday around 2 Am.","Yes, please fix appointment for Monday timings anytime before 5 pm.","Moday: 2-5 Pm.","Yeah, book an appointment for Monday, time:12 noon -5 Pm."],
+         "responses": ["Done! please note that your appointment no. is.","Please take a note of your appointment number","Perfect! Your generated appointment number is.","Nice, your appointment number is."],
+         "context": [""]
+        },
+         {"tag": "FAQF12-fire",
+         "patterns": ["Thanks, noted.","Thanks for informing.","Noted.","Thanks for communicating.","Done, added.","Yes, written thanks"],
+         "responses": ["Also, we would like to inspect the damaged area, could you please tell suitable time for that?","Damaged area needs to be inspected, what will be the suitable timings for that?","For the next step, adjuster will come to your house to inspect, which time would you like me to let him visit?","For adjuster's visit, please tell your preferred timings?"],
+         "context": [""]
+        },
+         {"tag": "FAQF13-fire",
+         "patterns": ["!0am to 5Pm.","Yeah, 4-6 pm would be fine.","Anytime before 7PM","I have night shift, come early morning around 7 am.","Morning 8-10am","Evening after5 Pm."],
+         "responses": ["This looks great,your FNOL has been reported successfully, and number is XXXXX","Okay,thanks for informing. Your FNOL claim number is XXXXXX","Yes, it's perfect, you can now get your FNOL claim number,it is XXXXX.","High-Five!Your Claim number has been generated, it is XXXXX."],
+         "context": [""]
+        },
+          {"tag": "FAQF14-fire",
+         "patterns": ["Great, thanks.","You helped me a lot Aiyrn, thanks.","Okay, noted, thank you so much Airyn-bot!","That was so fast, thanks!","It was a great experiece! Thanks bot!"],
+         "responses": ["I guess I was helpful enough to guide you through, smoothly.","It was fun chatting with you, take care:)","See you soon,Take care, bu-bye:)","It was great interacting with you.Good wishes!","Thank you for reaching out to this friend. Just remember, anytime;)","Anytime,Anywhere.;)"],
+         "context": [""]
+        }  
+    ]
+}
